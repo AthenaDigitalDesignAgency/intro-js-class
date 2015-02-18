@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>intro js</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<style type="text/css">
+		body {
+			background-color : yellow;
+		}
+		/*.container2 {
+			background-color : green;
+		}*/
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<button id="day">day</button>
+		<button id="night">night</button>
+
+	</div>
+
+	<p>not in a container</p>
+
+	<div class="container2">
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ul>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+
+		//when you click on this - it prints to the console
+		$('#day').on('click', function(){
+			$('body').css('background-color','yellow');
+		});
+
+		$('#night').on('click', function(){
+			$('body').css('background-color','black');
+		});
+
+		$('.container2').html('<p>container 2</p>');
+
+		$('p').on('click', function(){
+			console.log('hovered');
+		});
+
+		$('li').closest('.container2').css('background-color', 'green');
+	</script>
+
+</body>
+</html>
