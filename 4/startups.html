@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>intro js</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="4-style.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="4.html">4th Intro to JS Class</a>
+	    </div>
+	    <div id="navbar" class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav">
+	        <li><a href="4.html">Home</a></li>
+	        <li><a href="resumes.html">Resumes and for loops</a></li>
+	        <li class="active"><a href="startups.html">Start Ups and exit intent pop ups</a></li>
+	      </ul>
+	    </div><!--/.nav-collapse -->
+	  </div>
+	</nav>
+
+	<div class="container">
+
+	  <div class="starter-template">
+	  	
+	    <h1 id="main-heading" class="text-center">
+	    	Start Ups
+
+	    </h1>
+
+
+	    <p class="lead text-center" id="heading-text">What to do?</p>
+
+	    <p class="text-center"><button id="candy-cta">do you like candy?</button></p>
+
+	    <div class="row">
+	    	<div class="col-md-6 col-md-offset-4">
+	    		<h2>start up assumptions</h2>
+
+	    		<ul>
+	    			<li>
+	    				value assumption
+	    				<ul>
+	    					<li>do people want this?</li>
+	    					<li>do people care enough to sign up?</li>
+	    					<li>will people use it and use it again?</li>
+	    				</ul>
+	    			</li>
+	    				
+	    			<li>
+	    				leap of faith assumption
+	    				<ul>
+	    					<li>this will go viral because...</li>
+	    				</ul>
+	    			</li>
+	    		</ul>
+
+	    		<h2>de-risking assumptions</h2>
+	    			<li>
+	    				ask people (weak)
+	    				<ul>
+	    					<li>physically</li>
+	    					<li>on linkedin</li>
+	    					<li>surveys</li>
+	    					<li>on forums</li>
+	    					<li>read forums</li>
+	    				</ul>
+	    			</li>
+	    			<li>build weak mvp => best</li>
+
+	    		<h2>vision</h2>
+	    		<ul>
+	    			<li>macro thesis</li>
+	    			
+	    			<li>change space travel</li>
+	    			
+	    			<li>exit my company to ... because I will have made ___ significantly easier.</li>
+	    			
+	    			<li>exit my company to Facebook because teens don't feel comfortable on Facebook with their parents on it.</li>
+	    		</ul>
+	    			
+	    		<p>work backwards from where you want to be to where you are now and break it up into VERY SPECIFIC things that you have to do</p>
+
+	    		<h2>set goals</h2>
+	    		<ul>
+	    			<li>break your goals down</li>
+	    			<li>work toward them</li>
+	    			<li>re-evaluate your goals</li>
+	    		</ul>
+
+	    		<h2>idea generation</h2>
+	    		<ul>
+	    			<li>listen</li>
+	    			<li>use your skills</li>
+	    			<li>copy</li>
+	    		</ul>
+	    	</div>
+	    </div>
+	  </div>
+
+	</div><!-- /.container -->
+
+
+	<div id="call-to-action-modal" class="modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg" style="margin: 100px auto;">
+	    <div class="modal-content">
+	      <div class="modal-header text-center">
+	       
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	      <h4 class="modal-title" style="margin-top: 0; font-size: 16px;">Sign up for Candy Smash (it's free)</h4>
+	      </div>
+	      <div style="padding: 30px; overflow: auto;">
+	        <div class="row">
+	          <div class="col-md-7 col-sm-12 col-xs-12">
+	            <h1 style="color:#2d85bf; font-size: 35px;">Do you like candy?</h1>
+	            <p style="margin-top: 30px; font-size: 18px">Get candy samples shipped to you for <strong>FREE</strong>.</p>
+	            <p style="line-height: 40px; margin-top: 30px; margin-bottom: 30px;">
+	        
+	              <button class="btn btn-success btn-lg" style="margin-right: 10px;">Sign Up Now </button>
+	              <a href="#">Learn More</a>
+	            </p>
+	          </div>
+	          <div class="col-md-5 hidden-sm hidden-xs">
+	            <img src="http://stream1.gifsoup.com/view2/1082886/i-love-lucy-o.gif" alt="lucy">
+	          </div>
+	        </div>
+
+	      </div>
+
+	    </div>
+	  </div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			$('body').mouseleave(function() {
+				console.log('you left');
+			})
+
+			// Do something after 10 seconds
+			setTimeout( function(){ 
+
+				alert('boom');
+
+			}, 5000);
+			
+			$('#candy-cta').on('click', function(){
+				$('#call-to-action-modal').modal();
+			})
+			
+		});
+	</script>
+
+</body>
+</html>

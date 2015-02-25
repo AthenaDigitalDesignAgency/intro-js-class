@@ -1,0 +1,53 @@
+Intro - I got this from bootstrap
+	- just saved it and then modified it a little bit
+
+centering things using bootstrap
+	text-center class
+
+	grid 
+		col-md-2
+		col-md-8 <- centered 
+		col-md-2
+
+style sheet 
+
+1. warm up: make the bullet points disappear on 4.html with css
+2. make buttons work on 4.html
+3. As a class go over 4-ex1.html 4-ex2.html, 4-ex3.html
+
+In resumes.html 
+	- make it so checkValue() function only happens on click of the button on resumes
+	- Put spaces in there for dog and using break points show the value of check - then go over trim $.trim()
+	- Change the text from dog to city 
+	- Make this happen inside the checkValue() function to the commented out images
+		$('#image').html("<img src='http://media.giphy.com/media/7d7Tow15pX0Uo/giphy.gif' alt='under dog'>");
+
+
+	- make the loop in resumes.html only loop over the colors list
+	- go over $(this) by doing:
+		if ($(this).text() == 'blue'){
+			alert($(this).text());
+		}
+	- As a class go over break points in chrome (via sources in developer tools) by hiding the li tags via putting a break point on the console.log and doing $(this).hide();
+		- remind class to pay attention carefully as they'll be repeating these steps
+	- Ask each group to do what I did
+	- When clicking on the list button - have the list elements change to the color they say they are 
+		- use if statements
+		- use $(this)
+
+
+in startups.html
+
+	- go here and show them how costly it is:
+	<!--link: http://www.bounceexchange.com/?#pricing -->
+
+	- go over incrementing a counter on the screen
+		use console.logs to demonstrate
+
+	- don't let the pop up come up more than once with a counter
+
+	- make the modal appear only on exit - so no need for the button or the on click event
+
+	- make it so that the modal can be triggered only after 5 seconds
+
+	- next steps would be using a cookie so that it only triggers once for someone while visiting your page
