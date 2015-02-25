@@ -16,12 +16,18 @@ style sheet
 3. As a class go over 4-ex1.html 4-ex2.html, 4-ex3.html
 
 In resumes.html 
-	- make it so checkValue() function only happens on click of the button on resumes
-	- Put spaces in there for dog and using break points show the value of check - then go over trim $.trim()
+	- make it so checkValue() function only happens on click of the button
 	- Change the text from dog to city 
+		- show the console
+		- explain why 
+		- change the text back to dog
+	- Put spaces in there for dog and using break points show the value of check - then go over trim $.trim()
+
 	- Make this happen inside the checkValue() function to the commented out images
 		$('#image').html("<img src='http://media.giphy.com/media/7d7Tow15pX0Uo/giphy.gif' alt='under dog'>");
+	- change the text to broad
 
+	- have the class add in their own things into the function
 
 	- make the loop in resumes.html only loop over the colors list
 	- go over $(this) by doing:
