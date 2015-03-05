@@ -1,0 +1,27 @@
+.marginUp {
+	margin-top: 75px;
+}
+
+.marginDown {
+	margin-bottom: 200px;
+}
+
+.marginUpSmall {
+	margin-top: 25px;
+}
+
+.marginDownSmall{
+	margin-bottom: 25px;
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}

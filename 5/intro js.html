@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///Users/pavankatepalli/Desktop/git/intro-to-js/5/resumes.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>intro js</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="./intro js_files/5-style.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="file:///Users/pavankatepalli/Desktop/git/intro-to-js/5/5.html">5th Intro to JS Class</a>
+	    </div>
+	    <div id="navbar" class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav">
+	        <li><a href="file:///Users/pavankatepalli/Desktop/git/intro-to-js/5/5.html">Home</a></li>
+	        <li class="active"><a href="./intro js_files/intro js.html">Resumes and for loops</a></li>
+	        <li><a href="file:///Users/pavankatepalli/Desktop/git/intro-to-js/5/startups.html">Start Ups and exit intent pop ups</a></li>
+	      </ul>
+	    </div><!--/.nav-collapse -->
+	  </div>
+	</nav>
+
+	<div class="container">
+
+	  <div class="starter-template">
+	    <h1 id="main-heading" class="text-center marginUp">Resumes</h1>
+	    <p class="lead text-center" id="heading-text">What should your resume look like?</p>
+
+	    <div class="row marginDownSmall">
+	    	<div class="col-md-6 col-md-offset-4">
+	    		<p>make two resumes</p>
+	    		<ul>
+	    			<li>one for search engines full of keywords
+	    				<ul>
+	    					<li>bad resume don't bring this in </li>
+	    					<li>good resume for search engines and databases</li>
+	    				</ul>
+	    			</li>
+
+	    			<li>clean one for when you come in for an interview </li>
+	    		</ul>
+
+	    		<h3>Resume would look kind of like this</h3>
+	    		<ul>
+	    			<li>project 1: bottom right corner pop up triggered on hover of invisible div (link)</li>
+	    			<li>project 2: exit intent pop up (link)</li>
+	    			<li>project 3: javascript game with Knockout.js (link)</li>
+	    		</ul>
+
+	    		<h2>add in html</h2>
+
+	    		<button id="add-text">add text</button>
+	    		<button id="add-image">add image</button>
+
+	    		<div class="well marginUpSmall" id="text-goes-here"><p>holy moly shazam!! Last night, Pavan had muffins for dinner.</p></div>
+
+	    		<div class="well" id="image-goes-here">
+
+	    		</div>
+	    				
+	    		<h2>colors</h2>
+	    		<ul id="color-list">
+	    			<li>blue</li>
+	    			<li>green</li>
+	    			<li>red</li>
+	    			<li>green</li>
+	    			<li>red</li>
+	    			<li>blue</li>
+	    		</ul>
+
+	    		<h2>Animals</h2>
+	    		<ul id="animal-list">
+	    			<li>gopher</li>
+	    			<li>tiger</li>
+	    			<li>baby-alligator</li>
+	    			<li>pigeon</li>
+	    			<li>baby-giraffe</li>
+	    			<li>baby-octopus</li>
+	    		</ul>
+
+	    		<button id="colorify">colorify</button>
+	    		<button id="de-colorify">de-colorify</button>
+	    		<button id="animalify">animalify</button>
+	    		<button id="de-animalify">de-animalify</button>
+	    		
+	    	</div>
+	    </div>
+
+	    <div class="row marginDown">
+	    	<div class="col-md-6 col-md-offset-4">
+	    		<div id="number">9</div>
+	    		<button id="go-up">Go up</button>
+	    		<button id="go-down">Go down</button>
+	    		<button id="times-two">times it by 2</button>
+	    		<button id="divides-two">divide it by 2</button>
+	    		<button id="go-down-by-10">go down by 10</button>
+	    		<button id="go-down-by-10">go up by 10</button>
+	    	</div>
+	    </div>
+	  </div>
+
+	</div><!-- /.container -->
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+	<script src="./intro js_files/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="./intro js_files/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			function changeColors(){
+				$("#color-list li").each(function() {
+					var getText = $(this).text();
+					
+					if (getText == 'blue'){
+						$(this).addClass('blue');
+					}else if(getText == 'green'){
+						$(this).addClass('green');
+					}else if(getText == 'red'){
+						$(this).addClass('red');
+					}
+				});
+			}
+
+			//put in function code to decolorify here
+
+			//put in function code to animalify here
+
+			//put in function code to deanimalify here 
+
+			function goUp(){
+				var getNum = $('#number').text();
+
+				getNum = parseInt(getNum);
+
+				getNum = getNum + 1;
+
+				$('#number').html(getNum);
+
+			}
+
+			//put in function code to go down
+
+			//put in function code to times it by 2
+
+			//put in function code to divide it by 2
+
+			//put in function code to go down by 10
+
+			//put in function code to go up by 10
+
+
+			$('#add-text').on('click', function(){
+				$('#text-goes-here').html("<p>holy moly shazam!! Last night, Pavan had muffins for dinner.</p>");
+			})
+
+			$('#colorify').on('click', function(){
+				changeColors();
+			})
+
+			//put in on click code to decolorify here
+
+			//put in on click code to animalify here
+
+			//put in on click code to deanimalify here
+
+			$('#go-up').on('click', function(){
+				goUp();
+			});
+
+			//put in on click code to go down here
+
+			//put in on click code to times it by 2 here
+
+			//put in on click code to divide it by 2 here
+
+			//put in on click code to go down by 10 here
+			
+			//put in on click code to go up by 10 here
+
+
+		});
+	</script>
+
+
+</body></html>

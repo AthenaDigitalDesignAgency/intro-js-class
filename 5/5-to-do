@@ -1,0 +1,37 @@
+1. As a class, go over 5.html, resumes.html, startups.html and 5-style.css
+
+2. As a class go over the addClass function, go over the on click handler
+
+in 5.html 
+	3. have the class make all the buttons work
+
+In resumes.html
+	4. As a class go over how the add text button works
+
+	5. have the class make the add image button work
+
+	6. As a class go over how the colorify button works
+		- key points to go over: .each, $(this), if, else if
+
+	7. have the class work on the de-colorify, animalify and de-animalify buttons
+
+	8. As a class go over the Go Up button
+
+	9. have the class make the buttons next to the go up button work
+
+	10. As a class go over the content on the page and re-iterate the jobs on 5.html they should target off indeed.com
+
+In startups.html
+	11. As a class go over what happened with the pop up that comes up on the page
+
+	12. As a class go over what happens when you leave the body (look in the console)
+	
+	13. As a class go over what happens when you click on the do you like candy? button
+
+	14. Make the class launch the pop up after a certain time
+
+	15. Make the class launch the pop up if you leave the page
+
+	16. Make the class launch the pop up if you leave the page but only if it's been a certain time
+
+	17. As a class go over the information on the page
