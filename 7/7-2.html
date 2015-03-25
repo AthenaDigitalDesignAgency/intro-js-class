@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>intro js</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+</head>
+<body>
+
+	<!-- This is a *view* - HTML markup that defines the appearance of your UI -->
+
+	<p>First name: <strong data-bind="text: firstName"></strong></p>
+	<p>Last name: <strong data-bind="text: lastName"></strong></p>
+
+	<script src="https://code.jquery.com/jquery-git2.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+
+	<script type="text/javascript">
+		// This is a simple *viewmodel* - JavaScript that defines the data and behavior of your UI
+		function AppViewModel() {
+		    this.firstName = "Bert";
+		    this.lastName = "Bertington";
+		}
+
+		// Activates knockout.js
+		ko.applyBindings(new AppViewModel());
+	</script>
+</body>
+</html>
