@@ -1,0 +1,55 @@
+0. As a class, go over how 8-1.html works
+
+0.1. Make all the buttons in 8-1.html work
+
+0.2. As a class go over 8-2.html
+
+0.3. Have class add other destinations
+
+1. As a class, go over the structure of the game in game.html
+	game.css
+	game.html
+	game.js
+	
+2. As a class, go over game.js and talk about 
+	- sceneData
+		- it's JSON
+	- ScenesModel
+		- this is where the logic and javascript goes
+		- you can include jQuery in here
+	- how sceneData gets passed into that model and 
+		ko.applyBindings(new ScenesModel(sceneData));
+
+3. play with game.html in your browser
+
+4. style the page with your partners (put styling in game.css)
+	- style the question
+	- style the answer choices
+	- style the div with an id of made-by 
+	- customize the text on the page
+
+5. In game.js, put your game data into the sceneData variable
+
+Putting in a score:
+	6. As a class, talk about how the score would work
+
+	7. In groups, talk about how to put in a score, try on your own
+
+	8. As a class, talk about how to put in a score
+
+	9. As a class finish the score
+
+Putting in items: 
+	10. As a class, talk about how a downward variable would work 
+		- downward variable is something I made up - because I can't think of the term for this
+		- score is an upward variable
+		- could be food, health, fuel, bullets 
+		You start Food keeps going down 
+
+Adding images to your questions:
+	11. As a class, talk about how to add images to each of the questions
+		- modify the initial data so each question has a picture url
+		- make a new observable for the picture
+		- in the view display that picture
+			- http://knockoutjs.com/documentation/attr-binding.html
+
