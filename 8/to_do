@@ -14,6 +14,8 @@
 2. As a class, go over game.js and talk about 
 	- sceneData
 		- it's JSON
+		- go over JSON to the class 
+			- use w3 schools JSON page
 	- ScenesModel
 		- this is where the logic and javascript goes
 		- you can include jQuery in here
