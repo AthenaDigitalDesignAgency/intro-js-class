@@ -3,18 +3,14 @@ var sceneData = [
         { answer: "Let the guy come inside and try to quickly lock the door", next: 2 },
         { answer: "Close and bolt the door", next: 3}]
     }, //1
-    { question: "second question. What do you do", choices: [
-        { answer: "2 part 1", next: 11 },
-        { answer: "2 part 2", next: 11},
-        { answer: "2 part 3", next: 11},
-        { answer: "2 part 4", next: 4}
+    { question: "The guy's name is Peter. He's a scientist at the CDC and he keeps cursing. You ask him why those people were chasing you and he says that they're not people. They're zombies and they're going to break your door down.", choices: [
+        { answer: "Get out the back door", next: 4 },
+        { answer: "Reinforce the door", next: 11}
         ]
     }, //2
-    { question: "third question. What do you do", choices: [
-        { answer: "3 part 1", next: 11 },
-        { answer: "3 part 2", next: 5},
-        { answer: "3 part 3", next: 11},
-        { answer: "3 part 4", next: 11}
+    { question: "The person dies at your door, but the zombies hear you, and are trying to break your door down", choices: [
+        { answer: "open the door and tell them to go away", next: 11 },
+        { answer: "get out the back door", next: 5}
         ]
     }, //3
     { question: "fourth question. What do you do", choices: [
@@ -71,14 +67,13 @@ var sceneData = [
  
 var ScenesModel = function(scenes) {
     var self = this;
-    self.scenes = ko.observableArray(scenes);
-
+    
     self.activequestion = ko.observable(scenes[0].question)
     self.activechoices = ko.observableArray(scenes[0].choices)
 
     self.nextScene = function(choice) {
-    	self.activequestion(scenes[choice.next - 1].question);
-    	self.activechoices(scenes[choice.next - 1].choices);
+    	self.activequestion(scenes[choice.next -1].question);
+    	self.activechoices(scenes[choice.next -1].choices);
     } 
 };
  
