@@ -7,6 +7,11 @@ In 9-1.html
 
 	* Have students make obj3 appear in the html
 
+In 9-2.html
+	- As a class go over how ajax works with the json
+
+	* Have students get http://www.jsontest.com/ and print the results for http://headers.jsontest.com/ onto the screen
+
 
 - as a class, go over how json works the real world
 
