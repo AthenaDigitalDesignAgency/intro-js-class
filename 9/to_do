@@ -1,0 +1,20 @@
+In 9-1.html
+	- As a class go over how obj gets displayed
+
+	* Have students make obj2 appear in the html
+
+	- As a class go over how obj3 can be accessed manually and talk about looping
+
+	* Have students make obj3 appear in the html
+
+
+- as a class, go over how json works the real world
+
+	- as a class go to http://venturelateral.com/api/words/bobsburgers
+
+	- replace bobsburgers with nerdsaredelicious
+
+	- as a class go to http://venturelateral.com/api/word_create/nerdsaredelicious/<word goes here>
+		- check out http://venturelateral.com/api/words/nerdsaredelicious
+
+- work on making games better (continue off of class 8's to_do)
