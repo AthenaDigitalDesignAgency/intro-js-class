@@ -75,7 +75,11 @@
 
 	   			<div id="go-here-two"></div>
 
+	   			<div id="go-here-three"></div>
+
 	   			<button id="go-here-two-button">Go Here Two Button</button>
+
+	   			<button id="go-here-three-button">Go Here Three Button</button>
 
 	    	</div>
 	    	<div class="col-md-2"></div>
@@ -106,10 +110,21 @@
 					dataType: 'json',
 					success: function(dat) {
 						console.log(dat)
-					  $('#go-here-two').html("Date " + dat.date + " milliseconds since epoch " + dat.milliseconds_since_epoch)
+					  $('#go-here-two').html("Date " + dat.date + " milliseconds since epoch " + dat.milliseconds_since_epoch + " time " + dat.time)
 					}
 				})
+				
+			})
 
+			$('#go-here-three-button').on('click', function(){
+				$.ajax({
+					url: "http://headers.jsontest.com/",
+					dataType: 'json',
+					success: function(dat) {
+						console.log(dat)
+					  $('#go-here-three').html("User-Agent " + dat['User-Agent'])
+					}
+				})
 				
 			})
 		});

@@ -1,0 +1,44 @@
+10-1.html
+	- As a class go over computed values
+	1. Make a new observable called middleName, display it, and let the user edit it.
+	2. Make it so the middleName comes up in the fullName computed value.
+
+10-2.html
+	- As a class go over how "on click functions" are used in Knockout.js
+	1. Make a new button that has an on click function called capitalizePlaces
+	2. Make a function so that the capitalize places button works
+
+10-3.html
+	- As a class go over how the visible and disable properties work in Knockout.js
+	- make a button that will subtract 1 click 
+	- make it so the subtract button gets disabled if you hit 0 clicks
+
+For your game (do the ones you haven't done yet)
+	Put in an upward variable into your game
+		- an example would be a score
+
+		- put a variable into your game that goes up as long as the player selects the correct options
+
+		- display this variable in the html
+
+		- make it so if the player trys the game again, the variable gets reset to the original value.
+
+	Put in a downward variable into your game
+		- an example would be food. You start off with 10, then it goes down.
+
+		- put a variable into your game that goes down unless the player selects the correct options
+
+		- display this variable in the html
+
+		- make it so if the variable reaches 0, then your player dies
+
+		- make it so if the player trys the game again, the variable gets reset to the original value.
+
+	Style your game so it appears visually appealing
+		- update the css
+		- update how the questions and choices appear
+		- update the choice button
+		- the background (maybe use subtle patterns (google it))
+
+
+

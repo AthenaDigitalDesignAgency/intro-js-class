@@ -98,13 +98,14 @@
 			var text2 = '{"pet":"cat","petName":"Sylvestor","age":"9"}'
 			var obj2 = JSON.parse(text2);
 
-			var text3 = "employees":
-				[
-					{"firstName":"John", "lastName":"Doe"}, {"firstName":"Anna", "lastName":"Smith"}, {"firstName":"Peter","lastName":"Jones"} 
-				]
-			var obj3 = JSON.parse(text3);
+			//var text3 = "employees": [{"firstName":"John", "lastName":"Doe"}, {"firstName":"Anna", "lastName":"Smith"}, {"firstName":"Peter","lastName":"Jones"} ]";
+
+			//var obj3 = JSON.parse(text3);
 
 			$('#go-here').html(obj.name + "<br>" + obj.street + "<br>" + obj.phone);
+
+			$('#go-here-two').html(obj2.pet + "<br>" + obj2.petName + "<br>" + obj2.age);
+			
 			
 		});
 	</script>

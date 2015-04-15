@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>intro js</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<style type="text/css">
+		button {
+			margin-top: 25px;
+		}
+	</style>
+
+</head>
+<body>
+	
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<!-- This is a *view* - HTML markup that defines the appearance of your UI -->
+
+			<p>animal one: <strong data-bind="text: animalOne"></strong></p>
+			<p>animal two: <strong data-bind="text: animalTwo"></strong></p>
+			<p>place one: <strong data-bind="text: placeOne"></strong></p>
+			<p>place two: <strong data-bind="text: placeTwo"></strong></p>
+
+			<p>animal one: <input data-bind="value: animalOne"></strong></p>
+			<p>animal two: <input data-bind="value: animalTwo"></strong></p>
+			<p>place one: <input data-bind="value: placeOne"></strong></p>
+			<p>place two: <input data-bind="value: placeTwo"></strong></p>
+
+			<button data-bind="click: capitalizeAnimals">Cap the Animals</button>
+		    
+		</div>
+	</div>
+	
+
+
+	<script src="jquery-git2.min.js"></script>
+	
+	<script src="knockout-min.js"></script>
+
+	<script type="text/javascript">
+		var knockoutModel = function() {
+			this.animalOne = ko.observable("Penguin");
+			this.animalTwo = ko.observable("Cheetah");
+			this.placeOne = ko.observable("San Diego");
+			this.placeTwo = ko.observable("Toronto");
+
+			this.capitalizeAnimals = function() {
+			    this.animalOne(this.animalOne().toUpperCase()); // Write back a modified value
+			    this.animalTwo(this.animalTwo().toUpperCase()); // Write back a modified value
+			};    
+		};
+		 
+		ko.applyBindings(new knockoutModel());
+
+
+	</script>
+</body>
+</html>
