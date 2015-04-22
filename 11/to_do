@@ -1,0 +1,151 @@
+
+1.html
+	- as a class go over how 1.html works
+	- have class add two new names, Peter and Alex. Have it so Peter ate the Lobster, and have it so Alex ate the truffles
+	- have class add two new foods: pizza and tacos. Give them prices too.
+	- have a a new person: Emily, eat pizza
+
+When you're free, go through this tutorial:
+	http://learn.knockoutjs.com/#/?tutorial=collections
+
+Games
+	- work on them for a graduation ceremony - Wednesday , April 29th from 7-9PM
+
+next steps:
+	startup
+		MVP (min viable product)
+			- Stupid: fail fast, often and have fun failing
+			- Smart: find success, recognize it, do more of that, do less of the things that are failing
+			- inrtracker's mvp
+
+		Start Up Accelerators
+			http://www.seed-db.com/accelerators
+
+		Seth Godin's Start Up School (free on itunes)
+			https://itunes.apple.com/us/podcast/seth-godins-startup-school/id566985370?mt=2
+
+	ACCELERATOR COURSES 
+		- focus accelerators with a good mix, but a focus on JavaScript and/or mobile development
+
+		Great Guide
+			https://www.switchup.org/research/best-coding-bootcamps
+
+		Search through the list of them
+			http://www.bootcamps.in/programming/javascript/
+
+			https://www.coursereport.com/schools
+
+		scholarship information:
+			https://www.coursereport.com/resources/the-definitive-list-of-programming-bootcamp-scholarships
+
+			http://blog.thinkful.com/post/89189857383/coding-bootcamp-scholarships-for-women
+
+			http://www.quora.com/Any-bootcamps-that-give-scholarships-to-women-besides-Dev
+
+			https://tech.co/coding-bootcamps-scholarships-for-women-2014-07
+	BLOG
+		- start blogging about your experiences as a developer
+		- share what you've learned
+		- put it on your resume
+
+		- other benefits:
+			- inr tracker got funded because our investors learned to trust me because of my blog
+			- employers trust you because you're passionate about what you do
+
+	SEO
+		- learn about it
+		- it can help
+
+	SELF LEARN
+		https://code.tutsplus.com/courses
+			back end web development (choose one and do it)
+				languages:
+					https://code.tutsplus.com/courses/getting-started-with-python
+
+					https://code.tutsplus.com/courses/php-fundamentals
+
+					https://code.tutsplus.com/courses/the-fundamentals-of-ruby
+
+				frameworks to build websites (choose and one and do it):
+					for ruby:
+						https://code.tutsplus.com/courses/make-it-snappy-rails
+
+						https://code.tutsplus.com/courses/building-ribbit-in-rails
+
+					for python:
+						https://code.tutsplus.com/courses/django-unchained
+
+					for ruby and php:
+						https://code.tutsplus.com/courses/rails-or-laravel-building-an-app-twice
+
+					for php:
+						https://code.tutsplus.com/courses/getting-started-with-laravel-4
+
+
+			learn more about knockout:
+				https://code.tutsplus.com/courses/one-two-knockout
+
+			learn more about angular:
+				https://code.tutsplus.com/courses/real-time-web-apps-with-angularjs-and-firebase
+
+			css scroll based animations:
+				https://webdesign.tutsplus.com/courses/design-and-build-scroll-based-css-animations
+
+			help give you a good review of concepts: 
+				https://webdesign.tutsplus.com/courses/30-days-to-learn-html-css
+
+				https://code.tutsplus.com/courses/30-days-to-learn-jquery
+
+				https://code.tutsplus.com/courses/introduction-to-git-and-github
+
+				https://code.tutsplus.com/courses/introduction-to-html
+
+		https://www.codeschool.com
+		youtube
+
+	RESUMES
+		skills at the top
+			HTML, CSS, Bootstrap, jQuery, JavaScript, AJAX, Knockout.JS 3.3, Git
+
+		projects at the top
+			Project: Choose Your Own Adventure Game
+				- created game flow
+				- utilized JavaScript, JSON, Knockout.JS, HTML, CSS
+				- github link: ------
+
+			Project: Exit Intent Pop Up
+				- pop up to increase conversions that gets triggered after 10 seconds of being on the page
+				- utilized JavaScript, jQuery, HTML, CSS, Bootstrap
+				- github link: ------
+
+			Project: Corner Pop Up 
+				- a pop up that comes up at the bottom right of the screen when the user hovers over a part of the page
+				- utilized JavaScript, jQuery, HTML, CSS, Bootstrap
+				- this pop up can be utilized to increase user engagement
+				- github link: ------
+
+			Project: Resume Generator 
+				- a web form that takes in a person's data and outputs a printable resume
+				- utlilized JavaScript, jQuery, HTML, CSS, Bootstrap
+				- github link: ------
+
+	WHERE TO LOOK FOR A JOB
+		indeed
+		stackoverflow jobs
+		github jobs
+		career builder
+		monster
+
+	JOBS TO CONSIDER
+		web producer
+		digital producer
+		technical account manager
+		email producer
+		email developer
+		junior product manager
+		jr ux designer
+		jr front end web developer
+		junior developer
+
+		- trick: put the above words in your resume if you're looking to become that
+
